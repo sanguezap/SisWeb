@@ -21,4 +21,4 @@ http.createServer(function(request, response) {
         }
     });
 
-}).listen(process.env.OPENSHIFT_NODEJS_PORT || 7000);
+}).listen(process.env.OPENSHIFT_NODEJS_PORT || 8080);

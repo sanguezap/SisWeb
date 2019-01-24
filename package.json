@@ -1,12 +1,12 @@
 {
-  "name": "kitchensample",
-  "version": "1.0.0",
-  "description": "sample",
-  "main": "server.js",
-  "scripts": {
-    "test": "test",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "kitchensample",
+    "version": "1.0.0",
+    "description": "sample",
+    "main": "server.js",
+    "scripts": {
+        "test": "test",
+        "start": "node server.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+    },
+    "author": "",
+    "license": "ISC"
 }
